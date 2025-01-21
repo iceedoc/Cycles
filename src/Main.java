@@ -41,7 +41,7 @@ public class Main {
         int savings = 29000;
         int bank = 1;
         for (int i = 1; i <= 12; i++) {
-            bank = bank + bank / 120;
+            bank = bank + bank / 100;
             bank = bank + savings;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + bank + " ");
         }
